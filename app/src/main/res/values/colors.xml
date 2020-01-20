@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC5A07</color>
+    <color name="colorPrimaryDark">#EC5A07</color>
+    <color name="colorAccent">#EC5A07</color>
+    <color name="drawar_item">#626262</color>
+    <color name="drawar_item_selected">#EC5A07</color>
+    <color name="tabColor">#FFFFFF</color>
+    <color name="about_us_Text">#636363</color>
+    <color name="about_us_SubText">#8b8b8b</color>
+    <color name="app_background">#EDEDF7</color>
+    <color name="boder">#CABBBBBB</color>
+    <color name="tabLayoutDivider">#C1C1C1</color>
+    <color name="textView_tabColor">#787878</color>
+    <color name="textView_bmi">#525252</color>
+    <color name="button_cal_bmi">#ED5808</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dialog">#E6000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dialogBox_header">#ED5808</color>
+    <color name="textView_title_dialog">#585858</color>
+    <color name="green">#59C570</color>
+    <color name="yellow">#F5AE14</color>
+    <color name="view_dialog">#B2B2B2</color>
+    <color name="time_dg_color">#80000000</color>
+    <color name="textView_fitness_video_adapter">#525252</color>
+    <color name="view_cat_sub">#A6000000</color>
+</resources>

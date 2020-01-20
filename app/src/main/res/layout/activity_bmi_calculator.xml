@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    tools:context=".Activity.BmiCalculator">
+
+    <com.app.dietplan.Util.StatusBarView
+        android:id="@+id/statusBarView_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_bg" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusBarView_bmi"
+        android:background="@drawable/toolbar_bg"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout_bmi"
+        android:layout_below="@+id/toolbar_bmi"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/gender"
+                android:textColor="@color/textView_bmi"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_male_bmi"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button_gender_bg"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView_male_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/male"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView_male_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/male_se" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_female_bmi"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/button_unselect_gender_bg"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView_female_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/female"
+                        android:textColor="@color/textView_bmi"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView_female_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/female_un" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/height_cm"
+                android:textColor="@color/textView_bmi"
+                android:textSize="20sp" />
+
+            <com.kevalpatel2106.rulerpicker.RulerValuePicker
+                android:id="@+id/ruler_picker_height_bmi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/holo_orange_dark"
+                app:indicator_color="@android:color/white"
+                app:indicator_interval="14dp"
+                app:indicator_width="2dp"
+                app:max_value="@integer/maxValue_height"
+                app:min_value="@integer/minValue_height"
+                app:notch_color="@android:color/white"
+                app:ruler_text_size="6sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/weight_kg"
+                android:textColor="@color/textView_bmi"
+                android:textSize="20sp" />
+
+            <com.kevalpatel2106.rulerpicker.RulerValuePicker
+                android:id="@+id/ruler_picker_weight_bmi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                app:indicator_color="@color/textView_bmi"
+                app:indicator_interval="14dp"
+                app:indicator_width="2dp"
+                app:max_value="@integer/maxValue_weight"
+                app:min_value="@integer/minValue_weight"
+                app:notch_color="@color/textView_bmi"
+                app:ruler_text_color="@color/textView_bmi"
+                app:ruler_text_size="6sp" />
+
+            <Button
+                android:id="@+id/button_bmi"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/bm_cal_bg"
+                android:text="@string/calculate_bmi"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+
+</RelativeLayout>

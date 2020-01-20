@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Diet Plan</string>
+    <string name="app_sub_name">BMI Calculator And Fitness Videos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="isRTL">false</string>
+    <string name="fitness_video_show">true</string>
+
+    <string name="admob_privacy_link">https://www.your.com/privacyurl</string>
+    <string name="play_more_app">https://play.google.com/store/apps/developer?id=Vishal+Android+Apps</string>
+
+    <string name="category">Category</string>
+    <string name="bmi_calculator">Bmi Calculator</string>
+    <string name="fitness_video">Fitness Video</string>
+    <string name="rate_app">Rate App</string>
+    <string name="more_app">More App</string>
+    <string name="share_app">Share App</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="Let_me_recommend_you_this_application">Let me recommend you this application</string>
+    <string name="internet_connection">Internet connection not available</string>
+    <string name="internet_connection_message">Internet connection not available check your internet connection</string>
+    <string name="Please_click_BACK_again_to_exit">Please click BACK again to exit</string>
+    <string name="cannot_use_save_permission">Can not use Share future</string>
+    <string name="exit">Exit</string>
+
+    <!--<about_us.xml string>-->
+    <string name="app_name_about_us">abcd</string>
+    <string name="about_us_version">Verson</string>
+    <string name="about_us_version_text">2.1.5(1020)</string>
+    <string name="about_us_author">Author</string>
+    <string name="about_us_Company">Company</string>
+    <string name="about_us_company_name">Viavi Webtech</string>
+    <string name="about_us_email">Email</string>
+    <string name="about_us_email_text">info@viaviweb.com</string>
+    <string name="about_us_website">Website</string>
+    <string name="about_us_website_text">www.viaviweb.com</string>
+    <string name="about_us_contact">Contact</string>
+    <string name="about_us_contact_text">+91 (123) (456) (5678)</string>
+    <string name="about_us_about">About</string>
+    <!--<about_us.xml string>-->
+
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem a malesuada rhoncus.
+        Pellentesque ut dolor a dui porttitor porta lacinia non libero. Nunc volutpat arcu quis quam convallis molestie.
+    </string>
+    <string name="no_data">No Data</string>
+    <string name="share">Share</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (Kg)</string>
+    <string name="calculate_bmi">Calculate bmi</string>
+    <string name="ok">Ok</string>
+    <string name="please_select_height">Please select height</string>
+    <string name="please_select_weight">Please select weight</string>
+    <string name="bmi_result">Bmi Calculator Result</string>
+    <string name="your_bmi_score">Your BMI Score</string>
+    <string name="try_again">Try Again</string>
+    <string name="status">Status</string>
+    <string name="gender">Gender</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="Underweight">Underweight</string>
+    <string name="Normal">Normal</string>
+    <string name="Overweight">Overweight</string>
+    <string name="Obese">Obese</string>
+    <string name="time">00:00</string>
+    <string name="contact_msg">You are using invalid License or Package name is already in use, for more information contact us: info@viaviweb.com or viaviwebtech@gmail.com</string>
+</resources>
