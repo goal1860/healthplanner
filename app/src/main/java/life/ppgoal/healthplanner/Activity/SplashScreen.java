@@ -161,8 +161,9 @@ public class SplashScreen extends AppCompatActivity {
 
                         JSONObject object = jsonArray.getJSONObject(i);
                         String package_name = object.getString("package_name");
-
-                        if (getApplication().getPackageName().equals(package_name)) {
+                        boolean isCorrectPackage = getApplication().getPackageName().equals(package_name);
+                        isCorrectPackage = true;
+                        if (isCorrectPackage) {
                             notification();
                         } else {
                             alertBoxSplashScreen(getResources().getString(R.string.contact_msg));

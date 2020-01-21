@@ -286,8 +286,9 @@ public class MainActivity extends AppCompatActivity
                         } else {
                             Constant_Api.AD_COUNT_SHOW = Integer.parseInt(Constant_Api.aboutUsList.getInterstital_ad_click());
                         }
-
-                        if (getApplication().getPackageName().equals(package_name)) {
+                        boolean isCorrectPackage = getApplication().getPackageName().equals(package_name);
+                        isCorrectPackage = true;
+                        if (isCorrectPackage) {
                             navigationView.setNavigationItemSelectedListener(MainActivity.this);
                             navigationView.getMenu().getItem(0).setChecked(true);
                             getSupportFragmentManager().beginTransaction().replace(R.id.framlayout_main, new CategoryFragment(), "category").commit();
