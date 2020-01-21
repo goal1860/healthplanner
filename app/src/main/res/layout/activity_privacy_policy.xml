@@ -6,7 +6,7 @@
     android:background="@drawable/app_bg"
     android:orientation="vertical">
 
-    <com.app.dietplan.Util.StatusBarView
+    <life.ppgoal.healthplanner.Util.StatusBarView
         android:id="@+id/statusBarView_privacy_policy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

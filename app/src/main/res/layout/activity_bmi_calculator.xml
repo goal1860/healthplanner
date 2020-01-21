@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/app_bg"
-    tools:context=".Activity.BmiCalculator">
+    tools:context="life.ppgoal.healthplanner.Activity.BmiCalculator">
 
-    <com.app.dietplan.Util.StatusBarView
+    <life.ppgoal.healthplanner.Util.StatusBarView
         android:id="@+id/statusBarView_bmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

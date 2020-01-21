@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/app_bg"
-    tools:context="com.app.dietplan.Activity.SubCategory">
+    tools:context="life.ppgoal.healthplanner.Activity.SubCategory">
 
-    <com.app.dietplan.Util.StatusBarView
+    <life.ppgoal.healthplanner.Util.StatusBarView
         android:id="@+id/statusBarView_sub_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

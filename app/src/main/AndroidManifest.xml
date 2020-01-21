@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.dietplan">
+    package="life.ppgoal.healthplanner">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
-        android:name=".Util.YouApplication"
+        android:name="life.ppgoal.healthplanner.Util.YouApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,11 +19,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.VideoSearch"></activity>
-        <activity android:name=".Activity.DietSearch" />
-        <activity android:name=".Activity.FitnessVideo" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.VideoSearch"></activity>
+        <activity android:name="life.ppgoal.healthplanner.Activity.DietSearch" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.FitnessVideo" />
         <activity
-            android:name=".Activity.SplashScreen"
+            android:name="life.ppgoal.healthplanner.Activity.SplashScreen"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -32,19 +32,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.AboutUs" />
-        <activity android:name=".Activity.PrivacyPolice" />
-        <activity android:name=".Activity.SubCategory" />
-        <activity android:name=".Activity.SubCategoryDetail" />
-        <activity android:name=".Activity.BmiCalculator" />
-        <activity android:name=".Activity.YoutubePlayActivity" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.MainActivity" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.AboutUs" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.PrivacyPolice" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.SubCategory" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.SubCategoryDetail" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.BmiCalculator" />
+        <activity android:name="life.ppgoal.healthplanner.Activity.YoutubePlayActivity" />
         <activity
-            android:name=".Activity.VideoPlayer"
+            android:name="life.ppgoal.healthplanner.Activity.VideoPlayer"
             android:screenOrientation="portrait" />
 
         <service
-            android:name=".Util.NotificationExtenderExample"
+            android:name="life.ppgoal.healthplanner.Util.NotificationExtenderExample"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE">
             <intent-filter>
